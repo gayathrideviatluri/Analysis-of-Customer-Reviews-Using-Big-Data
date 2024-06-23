@@ -1,15 +1,25 @@
-# Analysis-of-Customer-Reviews-Using-Big-Data
-Built a sentiment analysis platform processing customer reviews, using Python, NLP libraries like NLTK/TextBlob, and big data tools like Pandas/NumPy
-<a id="section-one"></a>
-# Introduction
+# Sentiment Analysis of Film Reviews
 
-**Every day, we encounter numerous products on digital platforms, presenting us with various choices within the same category. Choosing a product can be daunting, but customer reviews come to our aid. When customers purchase a product, they often leave a rating and review detailing their experience, helping others make informed decisions. However, manually assessing each review for positivity or negativity can be time-consuming. Fortunately, advancements in Natural Language Processing (NLP) and artificial intelligence have greatly simplified this process.**
+## Project Overview
+This is a machine learning project that performs sentiment analysis on movie reviews. It uses natural language processing (NLP) techniques and a Random Forest classifier to categorize reviews into five sentiment levels: Very Bad, Bad, Neutral, Good, and Very Good.
 
-## What is sentiment analysis?
+## Key Features
+- Preprocesses and analyzes movie review text data
+- Implements TF-IDF vectorization for feature extraction
+- Utilizes a Random Forest classifier for multi-class sentiment prediction
+- Provides comprehensive visualizations for data insights:
+  - Sentiment distribution
+  - Confusion matrix for model performance
+  - Word clouds for each sentiment level
+  - Feature importance analysis
+  - Review length vs. sentiment analysis
+  - Average word length vs. sentiment analysis
+  - Most common words for each sentiment level
 
-**Sentiment Analysis is a technique to classify text that determines whether a message expresses a positive, negative, or neutral sentiment. Businesses are interested in understanding customer sentiments because customers frequently share their thoughts and emotions. Analyzing customer feedback automatically through technology enables brands to listen closely to their customers, thereby aligning their products and services with customer needs.**
-
-## Problem Statement
-
-**The objective is to develop a platform that provides concise summaries of critical business information, such as recent reviews, overall ratings, sentiment distribution, and trending keywords. Currently, businesses must manually read and interpret a large volume of customer reviews, comments, and concerns, which requires significant effort, time, and resources.**
-
+## Technologies Used
+- Python
+- Pandas for data manipulation
+- Scikit-learn for machine learning models
+- NLTK for natural language processing
+- Matplotlib and Seaborn for data visualization
+- WordCloud for generating word clouds
